@@ -20,7 +20,7 @@ export const App: React.FunctionComponent = () => {
       gap={15}
     >
       <img
-        src="https://raw.githubusercontent.com/Microsoft/just/master/packages/just-stack-uifabric/template/src/components/fabric.png"
+        src="https://raw.githubusercontent.com/microsoft/just/master/packages/just-stack-uifabric/plop-templates/src/fabric.png"
         alt="logo"
       />
       <Text variant="xxLarge" styles={boldStyle}>

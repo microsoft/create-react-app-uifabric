@@ -1,5 +1,6 @@
 import React from 'react';
 import { Stack, Text, Link, FontWeights } from 'office-ui-fabric-react';
+import Reactlogo from './logo.svg'
 
 const boldStyle = { root: { fontWeight: FontWeights.semibold } };
 
@@ -20,7 +21,7 @@ export const App: React.FunctionComponent = () => {
       gap={15}
     >
       <img
-        src="https://raw.githubusercontent.com/Microsoft/just/master/packages/just-stack-uifabric/template/src/components/fabric.png"
+        src={Reactlogo}
         alt="logo"
       />
       <Text variant="xxLarge" styles={boldStyle}>

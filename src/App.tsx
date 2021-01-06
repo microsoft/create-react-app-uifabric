@@ -1,5 +1,5 @@
 import React from 'react';
-import { Stack, Text, Link, FontWeights, Image } from 'office-ui-fabric-react';
+import { Stack, Text, Link, FontWeights } from 'office-ui-fabric-react';
 import logo from './logo.svg'
 import './App.css';
 
@@ -21,10 +21,9 @@ export const App: React.FunctionComponent = () => {
       }}
       gap={15}
     >
-      <Image
+      <img
         className="App-logo"
         src={logo}
-        height={"40vmin"}
         alt="app-logo"
       />
       <Text variant="xxLarge" styles={boldStyle}>

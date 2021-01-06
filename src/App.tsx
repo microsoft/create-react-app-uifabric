@@ -25,7 +25,7 @@ export const App: React.FunctionComponent = () => {
       <img
         className="App-logo"
         src={logo}
-        alt="app-logo"
+        alt="logo"
       />
       <Text variant="xxLarge" styles={boldStyle}>
         Welcome to Your Fluent UI App

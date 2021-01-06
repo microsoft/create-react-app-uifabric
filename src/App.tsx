@@ -1,6 +1,7 @@
 import React from 'react';
-import { Stack, Text, Link, FontWeights } from 'office-ui-fabric-react';
-import Reactlogo from './logo.svg'
+import { Stack, Text, Link, FontWeights, Image } from 'office-ui-fabric-react';
+import logo from './logo.svg'
+import './App.css';
 
 const boldStyle = { root: { fontWeight: FontWeights.semibold } };
 
@@ -20,9 +21,11 @@ export const App: React.FunctionComponent = () => {
       }}
       gap={15}
     >
-      <img
-        src={Reactlogo}
-        alt="logo"
+      <Image
+        className="App-logo"
+        src={logo}
+        height={"40vmin"}
+        alt="app-logo"
       />
       <Text variant="xxLarge" styles={boldStyle}>
         Welcome to Your UI Fabric App

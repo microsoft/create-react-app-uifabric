@@ -1,5 +1,7 @@
 import React from 'react';
 import { Stack, Text, Link, FontWeights, IStackTokens } from '@fluentui/react';
+import logo from './logo.svg'
+import './App.css';
 
 const boldStyle = { root: { fontWeight: FontWeights.semibold } };
 const stackTokens: IStackTokens = { childrenGap: 15 };
@@ -21,7 +23,8 @@ export const App: React.FunctionComponent = () => {
       tokens={stackTokens}
     >
       <img
-        src="https://raw.githubusercontent.com/Microsoft/just/master/packages/just-stack-uifabric/template/src/components/fabric.png"
+        className="App-logo"
+        src={logo}
         alt="logo"
       />
       <Text variant="xxLarge" styles={boldStyle}>

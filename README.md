@@ -1,4 +1,6 @@
-This is a Create React App based repo that comes with UI Fabric pre-installed!
+# Getting Started with Create React App and Fluent UI
+
+This is a [Create React App](https://github.com/facebook/create-react-app) based repo that comes with Fluent UI pre-installed!
 
 ## Available Scripts
 
@@ -45,7 +47,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 # Contributing
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
+This project welcomes contributions and suggestions. Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
 the rights to use your contribution. For details, visit https://cla.microsoft.com.
 

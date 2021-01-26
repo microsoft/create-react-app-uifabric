@@ -1,5 +1,11 @@
 # Getting Started with Create React App and Fluent UI
 
+## This repo is read-only
+
+**Warning: this repo is now deprecated and read-only. The contents of this repo has now been migrated into 
+the `cra-template` package of [microsoft/fluentui](https://github.com/microsoft/fluentui) repo. If you have an issue
+you'd like to raise, please submit it there.**
+
 This is a [Create React App](https://github.com/facebook/create-react-app) based repo that comes with Fluent UI pre-installed!
 
 ## Available Scripts
